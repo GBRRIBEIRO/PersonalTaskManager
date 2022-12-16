@@ -1,0 +1,12 @@
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.csproj.AssemblyReference.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.AssemblyInfoInputs.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.AssemblyInfo.cs
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\bin\Debug\net6.0\PTM.Domain.deps.json
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\bin\Debug\net6.0\PTM.Domain.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\bin\Debug\net6.0\PTM.Domain.pdb
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\refint\PTM.Domain.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\PTM.Domain.pdb
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Domain\obj\Debug\net6.0\ref\PTM.Domain.dll

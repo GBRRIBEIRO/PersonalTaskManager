@@ -1,0 +1,17 @@
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Infra.deps.json
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Infra.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Infra.pdb
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Domain.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Domain.pdb
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.csproj.AssemblyReference.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.AssemblyInfoInputs.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.AssemblyInfo.cs
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.csproj.CoreCompileInputs.cache
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.csproj.CopyComplete
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\refint\PTM.Infra.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.pdb
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\ref\PTM.Infra.dll
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\bin\Debug\net6.0\PTM.Infra.runtimeconfig.json
+C:\Users\gabriel.ribeiro\Documents\dev\C#\Personal Task Manager\PTM.Infra\obj\Debug\net6.0\PTM.Infra.genruntimeconfig.cache
