@@ -20,7 +20,10 @@ namespace PTM.Infra.EntityFramework
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"Data Source = {Db.ConnectionString}");
+            var path = "C:\\Users\\gabriel.ribeiro\\Desktop\\Database\\DBS";
+            var DbPath = System.IO.Path.Join(path, "PersonalTaskDB.db");
+
+            optionsBuilder.UseSqlite($"Data Source={DbPath}");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

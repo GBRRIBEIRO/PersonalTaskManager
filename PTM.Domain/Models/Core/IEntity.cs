@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PTM.Domain.Core
 {
-    internal interface IEntity
+    public interface IEntity
     {
         
     }

@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="EntityFramework\Configurations\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -13,8 +13,8 @@ namespace PTM.Infra.EntityFramework.Configurations
 
         public DbConfiguration(string dbName)
         {
-            Path = "C:\\Users\\gabriel.ribeiro\\Desktop\\Database\\DBS";
-            ConnectionString = System.IO.Path.Join(Path,dbName);
+            Path = @"C:\Users\gabriel.ribeiro\Desktop\Database\DBS";
+            ConnectionString = System.IO.Path.Combine(Path,dbName);
         }
     }
 }

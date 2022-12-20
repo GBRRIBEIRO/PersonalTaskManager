@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PTM.Domain.Queries.Tasks;
+using PTM.Domain.DTOs.Tasks;
 using PTM.Domain.Tasks;
+using PTM.Infra.Repositories;
 using System.Net;
 using System.Security.AccessControl;
 
@@ -12,10 +13,12 @@ namespace Personal_Task_Manager.Controllers
     public class TaskController : ControllerBase
     { 
         private readonly ILogger<TaskController> _logger;
+        private readonly Repository<Work> _repository;
 
         public TaskController(ILogger<TaskController> logger)
         {
             _logger = logger;
+            _repository = new Repository<Work>();
         }
 
         [HttpGet(Name = "GetTasks")]
@@ -24,8 +27,7 @@ namespace Personal_Task_Manager.Controllers
 
         public async Task<IActionResult> GetAll()
         {
-            var query = new TaskQuery();
-            var tasks = query.GetTasks();
+            var tasks = _repository.GetAll();
             if (tasks.Count() == 0)
                 return NoContent();
             return Ok(tasks);
@@ -34,13 +36,16 @@ namespace Personal_Task_Manager.Controllers
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public async Task<IActionResult> AddTask([FromBody] Work work)
+        public async Task<IActionResult> AddTask([FromBody] TaskDTO work)
         {
-            var query = new TaskQuery();
             if (work == null)
                 return BadRequest();
-            query.AddTask(new Work(work.Title,work.Description,work.StartDateTime,work.FinishedDateTime,work.Status));
-            return Ok(work);
+
+            
+            _repository.Add(new Work(work));
+            _repository.Save();
+            return CreatedAtAction(nameof(GetAll),true,work);
+
 
         }
 

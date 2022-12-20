@@ -1,5 +1,4 @@
-﻿using PTM.Infra.EntityFramework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace PTM.Infra.Repositories
 {
-    public class Repository<T>
+    public interface IRepository<TEntity> where TEntity : class
     {
-        private Repository(ApplicationDataContext adc)
-        {
-            adc = new ApplicationDataContext();
-        }
-
-        public List<T> GetAll()
-        {
-
-            return new List<T>();
-        }
+        List<TEntity> GetAll();
+        TEntity GetById(Guid id);
+        void Add(TEntity obj);
+        void Update(Guid oldObjectId, TEntity newObject);
+        void Delete();
+        void Save();
     }
 }
